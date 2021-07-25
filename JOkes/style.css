@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+
+
+#mainDiv{
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    background-color: rgb(246, 242, 187);
+}
+
+#innerDiv{
+    min-height:30vh;
+    width: 45vw;
+    background-color: skyblue;
+    display: grid;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+#jokeMaro{
+    padding:0.5rem 2rem;
+    outline:none;
+    font-size:2rem;
+    font-size:400;
+    display:block;
+    margin:auto;
+    border:none;
+    color:black;
+    background-color:rgb(228, 171, 26);
+    margin-top:4rem;
+}
+
+#swagatam{
+    font-size: 155%;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+#joke{
+    margin-top: 30px;
+    font-size: 180%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#head{
+    align-items: center;
+    font-size: 350%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+#mainhead{
+    align-items: center;
+}
+
+#jokeMaro:hover{
+    cursor: pointer;
+    background-color: darkorange;
+}
